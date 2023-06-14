@@ -1,5 +1,7 @@
 # person-frontend
 
+[![CI](https://github.com/LennartMan95/webtech23-task-frontend/actions/workflows/ci.yml/badge.svg)](https://github.com/LennartMan95/webtech23-task-frontend/actions/workflows/ci.yml)
+
 ## Project setup
 ```
 npm install

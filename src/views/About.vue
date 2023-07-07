@@ -1,20 +1,40 @@
 <template>
   <div class="wrapper">
     <div class="home">
-      <h1>About Page</h1>
+      <h1>About the Project</h1>
       <p class="description">
-        Start managing your tasks and stay organized with our easy-to-use to-do list application.
+        Lennart Manske s0574939, Hochschule für Technik und Wirtschaft Berlin
       </p>
       <div class="web-app-description">
         <div class="card mb-3" style="max-width: 2000px;">
           <div class="row g-0">
             <div class="col-md-4">
-              <img src="IMG_1643.png" class="img-fluid rounded-start" alt="...">
+              <img src="../assets/IMG_1643.png" class="img-fluid rounded-start" alt="...">
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h3 style="text-decoration: underline;">Meine To-Do-Webapp</h3>
+                <p class="card-text">
+                  Ich bin Lennart Manske, 27 Jahre alt und studiere Wirtschaftsinformatik an der Hochschule für Technik und Wirtschaft Berlin. Im Rahmen des Kurses "B3.1 Webtechnologien (SL)" im SoSe2023 sollten die Studenten eine WebApp erstellen.
+                </p>
+                <p class="card-text">
+                  Ich habe mich für eine To-Do-List entschieden, die es den Benutzern ermöglicht, ihre Aufgaben zu verwalten und organisiert zu bleiben. Wir hatten die Möglichkeit in Gruppen zu arbeiten, Ich wollte jedoch dieses Projekt alleine verwirklichen.
+                </p>
+                <p class="card-text">
+                  Anbei habe ich nochmal meine Repositorys verlinkt. Ich hoffe dass meine kleine Anwendung ihren Anspruechen gerecht wird.
+                </p>
+                <p>
+                  Check out my GitHub frontend repository:
+                  <a href="https://github.com/LennartMan95/webtech23-task-frontend" target="_blank" rel="noopener">
+                    <font-awesome-icon icon="fab fa-github"></font-awesome-icon> GitHub
+                  </a>
+                </p>
+                <p>
+                  Check out my GitHub backend repository:
+                  <a href="https://github.com/LennartMan95/webtech23" target="_blank" rel="noopener">
+                    <font-awesome-icon icon="fab fa-github"></font-awesome-icon> GitHub
+                  </a>
+                </p>
               </div>
             </div>
           </div>

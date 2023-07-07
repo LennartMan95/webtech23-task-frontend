@@ -1,22 +1,53 @@
 <template>
   <div class="wrapper">
   <div class="home">
-    <HelloWorld msg="Welcome to Your To-Do List"/>
+    <HelloWorld msg="Welcome to your To-Do WebApp"/>
     <p class="description">
       Start managing your tasks and stay organized with our easy-to-use to-do list application.
     </p>
     <div class="user-manual">
-      <h2>User Manual</h2>
+      <h3 style="text-decoration: underline;">User Manual</h3>
+      <br><br>
+      <h2>Über die To-Do-List WebApp</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel volutpat felis. Praesent vulputate lacus ac sapien dignissim, ut efficitur nibh tincidunt. Mauris rhoncus hendrerit feugiat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In ac sem non enim rhoncus finibus sit amet at elit. Sed aliquam quam quis commodo dapibus. Mauris aliquet ligula vitae mauris placerat, vitae porta risus viverra.
-
-        Proin eget tempor metus. Nulla nisi mauris, tempus dignissim felis vitae, vehicula volutpat nibh. Ut laoreet elit gravida, condimentum diam sit amet, consectetur odio. Proin dictum sagittis placerat. Ut vehicula tincidunt odio, quis tristique diam sollicitudin sed. Quisque scelerisque ac quam sed volutpat. Nam rhoncus at lectus a molestie. Morbi a tellus eu orci feugiat feugiat. Aliquam vulputate orci porta nulla tincidunt tempus. Maecenas rhoncus pretium turpis. Duis vestibulum magna justo, vitae egestas eros lacinia id. Vestibulum scelerisque magna eget ipsum congue commodo.
-
-        In sem velit, rhoncus a congue pulvinar, sodales vitae ante. Suspendisse mauris velit, iaculis sit amet dictum non, gravida eget nulla. Proin ac augue tortor. Duis sagittis condimentum ex, vel malesuada turpis aliquet quis. Nulla tincidunt mollis tristique. Morbi at nibh ac eros mollis efficitur at sit amet urna. Curabitur porttitor tellus massa, sed rhoncus erat consectetur ut. Proin in enim vel nisl faucibus commodo at id sem. Donec eleifend neque non mi finibus, nec rutrum orci venenatis. Proin sodales nisi eget congue eleifend. Phasellus pharetra risus sit amet laoreet congue.
-
-        Sed laoreet condimentum dui id gravida. Proin at auctor nibh, non rhoncus est. Quisque dapibus eleifend interdum. Pellentesque a tortor nec lacus molestie mattis et ac ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas orci tellus, dignissim sit amet diam id, pellentesque mattis mi. Curabitur aliquet gravida nibh, a sollicitudin dui placerat quis. Maecenas molestie gravida lacus, eget faucibus erat ornare id. Cras ut volutpat purus.
+        Die To-Do-List WebApp ist eine benutzerfreundliche Anwendung, die Ihnen dabei hilft, Ihre Aufgaben zu verwalten und organisiert zu bleiben. Sie können neue Aufgaben erstellen, <br>
+        vorhandene Aufgaben bearbeiten und löschen sowie erledigte Aufgaben markieren.<br><br>
       </p>
-      <!-- Weitere Inhalte des User Manuals hier einfügen -->
+      <h2>Funktionen und Zweck</h2>
+      <p>
+        Die Hauptfunktionen der To-Do-List WebApp umfassen:<br>
+        * Hinzufügen neuer Aufgaben mit einem eindeutigen Namen und einer detaillierten Beschreibung<br>
+        * Bearbeiten von bestehenden Aufgaben, um Änderungen vorzunehmen oder zusätzliche Informationen hinzuzufügen<br>
+        * Löschen von Aufgaben, die nicht mehr relevant sind oder abgeschlossen wurden<br>
+        * Markieren von Aufgaben als erledigt, um den Fortschritt zu verfolgen<br>
+        * Anzeigen einer übersichtlichen Liste aller Aufgaben mit relevanten Informationen<br><br>
+      </p>
+      <h2>Aufteilung der Website</h2>
+      <p>
+        Die Website ist in folgende Seiten aufgeteilt die sie über die Navbar erreichen:<br>
+        * Home Page, inklusive User Manual<br>
+        * Task Page, mit der eigentlichen WebApp<br>
+        * About Page, mit Infos zum Ersteller der Seite und Links die zum Repository fuehren<br><br>
+      </p>
+      <h2>Hinzufügen eines neuen Tasks in der To-Do-Liste</h2>
+      <p>
+        Um einen neuen Task hinzuzufügen, folgen Sie diesen Schritten:<br>
+        * Klicken Sie auf die Schaltfläche "Create New Task".<br>
+        * Es wird ein kleines Fenster geöffnet, das Sie zur Eingabe des Task-Namens und der Task-Beschreibung auffordert.<br>
+        * Geben Sie einen aussagekräftigen Namen für den Task ein (mindestens 2 Buchstaben erforderlich) <br>und geben Sie eine detaillierte Beschreibung des Tasks ein (mindestens 10 Buchstaben erforderlich).<br>
+        * Klicken Sie auf die Schaltfläche "Create Task", um den neuen Task zu erstellen und zur Task-Liste hinzuzufügen. <br>Sie können auch auf "Close" klicken, um den Vorgang abzubrechen.<br><br>
+      </p>
+      <h2>Einen Task als erledigt markieren, bzw. einen Task löschen</h2>
+      <p>
+        Um einen Task als erledigt zu markieren, gehen Sie wie folgt vor:<br>
+        * Suchen Sie den Task in der Task-Liste.<br>
+        * Klicken Sie auf die Schaltfläche "Done!", um den Task als erledigt zu markieren. Der Task wird aus der Task-Liste entfernt.
+      </p>
+      <h2>Sprache</h2>
+      <p>
+        Die Homepage und Aboutpage haben deutschen Inhalt, die Anwendungen und Überschriften sind jedoch teilweise auf Englisch, <br>
+        da standardgemäßig mit englischen Variablen im frontend und backend gearbeitet wurde. Ich bitte um Verständnis<br>
+      </p>
     </div>
   </div>
   </div>

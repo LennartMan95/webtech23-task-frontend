@@ -1,7 +1,10 @@
 <template>
   <div class="wrapper">
     <div class="home">
-      <h1>Welcome to the tasks</h1>
+      <h1>Your To-Do WebApp</h1>
+      <p class="description">
+        Start creating new to-do tasks buy pressing the button below.
+      </p>
       <tasks-create-modal></tasks-create-modal>
       <div class="task-list">
         <tasks-card-list :tasks="this.tasks"></tasks-card-list>
@@ -41,25 +44,27 @@ export default {
 </script>
 
 <style scoped>
+.wrapper {
+  padding: 20px;
+  background-color: #ffffff;
+}
 
-.header-container {
+.home {
   position: relative;
-  margin-bottom: 0px;
   text-align: center;
-  background-color: #f9f9f9;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
 }
 
-.header-container::before {
-  content: "";
-  position: absolute;
-  top: -10px;
-  left: 0;
-  width: 100%;
-  height: 1px;
-  background-color: #ccc;
+.home h1 {
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 18px;
+  margin-bottom: 30px;
 }
 
 .task-list {
@@ -70,4 +75,11 @@ export default {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.tasks-create-modal {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: -30px;
+}
 </style>
